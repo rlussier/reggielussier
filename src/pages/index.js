@@ -1,6 +1,4 @@
 import * as React from "react"
-import { Link } from "gatsby"
-// import { StaticImage } from "gatsby-plugin-image"
 import Jumbotron from 'react-bootstrap/Jumbotron'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -8,9 +6,9 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <div className="wrapper container">
+      <div className="wrapper container">
     <Jumbotron fluid>
-  <div className="sub_container">
+      <div className="sub_container">
   {/* <StaticImage
       src="../images/gatsby-astronaut.png"
       width={300}
@@ -19,11 +17,10 @@ const IndexPage = () => (
       alt="A Gatsby astronaut"
       style={{ marginBottom: `1.45rem` }}
     /> */}
+      </div>
+    </Jumbotron>
   </div>
-</Jumbotron>
-   
-    </div>
-  </Layout>
+ </Layout>
 )
 
 export default IndexPage

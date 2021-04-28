@@ -6,17 +6,16 @@
 
 body {
     margin: 0 auto;
-    background-image: url('../images/FullBodyShot.png');
+    background-image: $background;
     background-size: cover;
     background-repeat: no-repeat;
-    // background-color: gray;
 }
 .container {
     margin: 0 auto;
     width: 100%;
 }
 .main_container {
-    max-width: 960px;
+    // max-width: 1200px;
     background-color: $background_color;
     z-index: 1000;
     border: $border_color 1px solid;
@@ -33,4 +32,8 @@ h2 {
     }
 }
 
-
+@media only screen and (max-width: 480px) {
+    html {
+      font-size: 100%;
+    }
+}

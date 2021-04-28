@@ -3,10 +3,14 @@
     align-items: baseline;
     background-color: transparent;
     justify-content: space-between;
+    padding: 0 1rem;
+    // max-width: 1200px;
+    align-content: center;
+    margin: 0 auto;
     .title {
         color: $font_navcolor;
         text-shadow: .15rem 0 $textshadow_color;
-        font-size: 2.5rem;
+        font-size: 3.2rem;
         text-decoration: none;
         font-family: $Audiowide_font;
         font-weight: 400;
