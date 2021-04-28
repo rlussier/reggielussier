@@ -1,0 +1,36 @@
+@import 'variables.scss';
+@import 'navbar.scss';
+@import 'demos.scss';
+@import 'about.scss';
+@import 'socialmedia.scss';
+
+body {
+    margin: 0 auto;
+    background-image: url('../images/FullBodyShot.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    // background-color: gray;
+}
+.container {
+    margin: 0 auto;
+    width: 100%;
+}
+.main_container {
+    max-width: 960px;
+    background-color: $background_color;
+    z-index: 1000;
+    border: $border_color 1px solid;
+    box-shadow: 5px 6px 6px 5px $bordershadow_color;
+    position: relative;
+    color: $text_color;
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    font-family: $Spartan_font;
+}
+h2 {
+    font-family: $Spartan_font;
+    }
+}
+
+

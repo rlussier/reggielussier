@@ -1,0 +1,26 @@
+.about_container {
+    display: flex;
+    padding: 0 3rem;
+    p {
+        font-size: 1.5rem;
+        font-family: $Spartan_font;
+        a {
+            text-decoration: none;
+            color: $font_navcolor;
+        }
+    }
+    h2 {
+        text-align: center;
+        font-family: $Spartan_font;
+    }
+    li {
+        list-style-type: none;
+        text-align: center;
+        a {
+        font-family: $Spartan_font;
+        font-size: 1.2rem;
+        text-decoration: none;
+        color: $font_navcolor;
+        }
+    }
+}
