@@ -5,7 +5,7 @@ const Footer = ({ siteTitle }) => (
          style={{
             position: 'absolute',
             bottom: 0,
-            height: '2.5rem',
+            height: '2.1rem',
             fontFamily: 'Spartan, sans-serif'
       }}
        >
