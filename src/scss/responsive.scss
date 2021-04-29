@@ -1,0 +1,35 @@
+@media only screen and (min-width: 0) {
+    html {
+        font-size: 100%;
+      }
+    body {
+        background-color: $background_responsivecolor; 
+        background-image: none;
+    }
+}
+
+@media only screen and (min-width: 280px) {
+    body {
+        margin: 0;
+    }
+    .main_container {
+        margin: 0;
+    }
+    .title {
+        // font-size: .5rem;
+        // text-align: center;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    body {
+        background-image: $background;
+        background-size: cover;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .hamburger_menu {
+        display: none;
+    }
+}

@@ -3,11 +3,17 @@
 @import 'demos.scss';
 @import 'about.scss';
 @import 'socialmedia.scss';
+@import 'responsive.scss';
+@import 'hamburger.scss';
+
+* {
+    box-sizing: border-box;
+  }
 
 body {
     margin: 0 auto;
-    background-image: $background;
-    background-size: cover;
+    // background-image: $background;
+    // background-size: cover;
     background-repeat: no-repeat;
 }
 .container {
@@ -32,8 +38,3 @@ h2 {
     }
 }
 
-@media only screen and (max-width: 480px) {
-    html {
-      font-size: 100%;
-    }
-}

@@ -1,8 +1,9 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
-import Nav from 'react-bootstrap/Nav'
+import { Nav } from "react-bootstrap";
 import SocialMedia from "./socialmedia"
+import Hamburger from 'hamburger-react'
 
 const Header = ({ siteTitle }) => (
   <header>
@@ -21,7 +22,13 @@ const Header = ({ siteTitle }) => (
           <Nav.Item>
             <Link className="nav_link" to="/demos">Demos</Link>
           </Nav.Item>
-        </Nav>
+        </Nav> 
+
+       
+
+<Hamburger />
+
+
       </div>
     <SocialMedia />
 </div>
