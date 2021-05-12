@@ -6,6 +6,16 @@
         background-color: $background_responsivecolor; 
         background-image: none;
     }
+    #nav {
+     display: block;
+    }
+    .nav_link {
+        padding: 1em;
+        background-color: purple;
+    }
+    .dropdown-toggle:after { 
+        content: none; 
+    }
 }
 
 @media only screen and (min-width: 280px) {
@@ -22,14 +32,28 @@
 }
 
 @media only screen and (min-width: 768px) {
+    .nav_link {
+        background-color: transparent;
+    }
+}
+
+@media only screen and (min-width: 1199px) {
     body {
         background-image: $background;
         background-size: cover;
+        background-repeat: no-repeat;
+        margin: 0 auto;
+    }
+    .dropdown-toggle {
+        display: none;
     }
 }
 
 @media only screen and (max-width: 1200px) {
     .navbar {
         display: flex;
+    }
+    .social-container {
+        display: none;
     }
 }

@@ -18,7 +18,7 @@ const AboutPage = () => (
         <i>Amazon Prime.</i>&nbsp;
           For resume check out my <a href="https://www.imdb.com/name/nm9216180/?ref_=fn_al_nm_1" target="_blank">IMDB</a>
         </p> <br/>
-        <h2>For Bookings and Inquiries:</h2>
+        <h2>To contact me:</h2>
           <ul>
             <li><a href="mailto:ralussier@hotmail.com">ralussier@hotmail.com</a></li>
             <li><a href="tel:2693706368">269-370-6368</a></li>

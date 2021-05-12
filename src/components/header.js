@@ -1,27 +1,43 @@
-import React from "react"
+import React, { useState } from "react"
 import { Link } from "gatsby"
 import styled from "styled-components"
 import { FaBars } from "react-icons/fa"
 import { menuData } from "./data/menudata"
 import SocialMedia from "./socialmedia"
 import PropTypes from "prop-types"
+import Dropdown from 'react-bootstrap/Dropdown'
 
 const Header = ({ siteTitle }) => {
+
   return (
   <Nav className="navbar">
     <NavLink to="/" className="title">
       {siteTitle}
     </NavLink>
-    <Bars />
-    <NavMenu>
+    <NavMenu className="collapse dropdown">
       {menuData.map((item, index) => (
-        <NavLink to={item.link} key={index} className="nav_link">
+        <NavLink to={item.link} key={index} className="nav_link navbar-collapse">
           {item.title}
         </NavLink>
       ))}
     </NavMenu>
+
+    <Dropdown>
+  <Dropdown.Toggle variant="success" idName="nav">
+    <Bars className="nav-toggle"/>
+  </Dropdown.Toggle>
+  <Dropdown.Menu>
+  {menuData.map((item, index) => (
+        <NavLink to={item.link} key={index} className="nav_link navbar-collapse">
+          {item.title}
+        </NavLink>
+      ))}
+  </Dropdown.Menu>
+</Dropdown>
+
     <SocialMedia />
   </Nav>
+  
     
     )
 }
@@ -55,8 +71,8 @@ color:#0A0A0A;
   position: absolute;
   top: 0;
   right: 0;
-  transform: translate(-100%, 75%);
-  font-size: 1.8rem;
+  transform: translate(-50%, 35%), rotate(225deg);
+  font-size: 3rem;
   cursor: pointer;
 }
 `
