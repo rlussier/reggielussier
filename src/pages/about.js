@@ -12,11 +12,12 @@ const AboutPage = () => (
     <div className="about_container">
       <div className="paragraph">
         <p>Reggie Lussier is an actor and producer based out of Dallas, TX.
-          She's been in commercials, TV, and films. Even behind the scenes,  
-          Reggie has done work as a production assistant and sound operator. 
-          Working for big names like <i>ABC</i>, <i>Rooster Teeth</i>, and&nbsp; 
-        <i>Amazon Prime.</i>&nbsp;
-          For resume check out my <a href="https://www.imdb.com/name/nm9216180/?ref_=fn_al_nm_1" target="_blank">IMDB</a>
+          She has been in a variety of commercials, TV, and voice over projects. 
+          When not in front of the camera, Reggie can be found working behinds
+          the scenes working as a Production Assistant and Sound operator.  
+          Skills include: guitar, piano, vocal range: alto, martial arts, improv, 
+          and fitness. She also does her own stunts. 
+          For resume check out her: <a href="https://www.imdb.com/name/nm9216180/?ref_=fn_al_nm_1" target="_blank">IMDB</a>
         </p> <br/>
         <h2>To contact me:</h2>
           <ul>

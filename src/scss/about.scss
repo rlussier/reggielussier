@@ -8,6 +8,7 @@
             text-decoration: none;
             // color: $font_navcolor;
             color: #36096d;
+            font-size: $font_text-size;
         }
     }
     h2 {
@@ -19,7 +20,7 @@
         text-align: center;
         a {
         font-family: $Spartan_font;
-        font-size: 1.2rem;
+        font-size: $font_text-size;
         text-decoration: none;
         // color: $font_navcolor;
         color: #36096d;
