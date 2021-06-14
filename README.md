@@ -12,3 +12,5 @@ This is my actor portfolio website using the Gatsby framework, React, and SASS f
 
 <h3>Framework Links</h3>
 <a href="https://www.gatsbyjs.com/">Gatsby</a>
+<a href="https://sass-lang.com/">Sass</a>
+<a href="https://reactjs.org/">React</a>
