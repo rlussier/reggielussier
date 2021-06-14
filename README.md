@@ -7,5 +7,6 @@ This is my actor portfolio website using the Gatsby framework, React, and SASS f
 <h2>About Page</h2>
 <img src="src/images/AboutPage.png" width="100%">
 
-
+<h2>Demos Page</h2>
+<img src="src/images/DemosPage.png" width="100%">
 
