@@ -4,7 +4,7 @@ This is my actor portfolio website using the Gatsby framework, React, and SASS f
 <h2>Home Page</h2>
 ![](images/HomePage.png)
 
-<img src="~/images/HomePage.png" />
+<img src="~/images/HomePage.png">
 
 
 
