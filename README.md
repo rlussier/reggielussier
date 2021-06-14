@@ -2,4 +2,4 @@
 This is my actor portfolio website using the Gatsby framework, React, and SASS framework.<br>
 
 <h2>Home Page</h2>
-<img src="./images/animatedme.png"/>
+<img src="../images/animatedme.png"/>
