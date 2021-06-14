@@ -10,3 +10,5 @@ This is my actor portfolio website using the Gatsby framework, React, and SASS f
 <h2>Demos Page</h2>
 <img src="src/images/DemosPage.png" width="100%">
 
+<h3>Framework Links</h3>
+<a href="https://www.gatsbyjs.com/">Gatsby</a>
