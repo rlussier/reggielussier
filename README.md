@@ -3,3 +3,4 @@ This is my actor portfolio website using the Gatsby framework, React, and SASS f
 
 <h2>Home Page</h2>
 <img src="../images/animatedme.png"/>
+![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
