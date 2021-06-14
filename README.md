@@ -4,5 +4,8 @@ This is my actor portfolio website using the Gatsby framework, React, and SASS f
 <h2>Home Page</h2>
 <img src="src/images/HomePage.png" width="100%">
 
+<h2>About Page</h2>
+<img src="src/images/AboutPage.png" width="100%">
+
 
 
