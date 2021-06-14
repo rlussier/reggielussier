@@ -2,9 +2,7 @@
 This is my actor portfolio website using the Gatsby framework, React, and SASS framework.<br>
 
 <h2>Home Page</h2>
-![](images/HomePage.png)
-
-<img src="src/images/HomePage.png" width="50%">
+<img src="src/images/HomePage.png" width="100%">
 
 
 
