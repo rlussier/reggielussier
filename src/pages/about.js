@@ -21,7 +21,7 @@ const AboutPage = () => (
         </p> <br/>
         <h2>To contact me:</h2>
           <ul>
-            <li><a href="mailto:ralussier@hotmail.com">ralussier@hotmail.com</a></li>
+            <li><a href="mailto:reganlussier@gmail.com">reganlussier@gmail.com</a></li>
             <li><a href="tel:2693706368">269-370-6368</a></li>
           </ul>
     </div>
