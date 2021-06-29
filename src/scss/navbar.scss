@@ -8,8 +8,11 @@
     align-content: center;
     margin: 0 auto;
     .title {
-        color: $font_navcolor;
-        text-shadow: .15rem 0 $textshadow_color;
+        background: linear-gradient(to right, $font_navcolor, #87ceff, $font_navcolor);
+        color: transparent;
+        background-clip: text;
+        // color: $font_navcolor;
+        // text-shadow: .15rem 0 $textshadow_color;
         font-size: 3.2rem;
         text-decoration: none;
         font-family: $Audiowide_font;
@@ -24,7 +27,7 @@
     display: flex;
    .nav_link, li, a {
         font-family: $Audiowide_font;
-        color: $font_navcolor;
+        // color: $font_navcolor;
         text-shadow: .24rem .10rem $textshadow_color;
         padding: 1rem;
         text-decoration: none;
@@ -37,8 +40,11 @@
 }
 
 .title {
-    color: $font_navcolor;
-    text-shadow: .15rem 0 $textshadow_color;
+    background: linear-gradient(to right, $font_navcolor, #87ceff);
+    color: transparent;
+    background-clip: text;
+    // color: $font_navcolor;
+    // text-shadow: .15rem 0 $textshadow_color;
     font-size: 3.2rem;
     text-decoration: none;
     font-family: $Audiowide_font;
@@ -51,11 +57,17 @@
 
 .nav_link {
     font-family: $Audiowide_font;
-    color: $font_navcolor;
-    text-shadow: .24rem .10rem $textshadow_color;
+    // color: $font_navcolor;
+    text-shadow: .24rem .10rem invert $textshadow_color;
     padding: 1rem;
     text-decoration: none;
     font-size: 1.5rem;
+    background: linear-gradient(to right, $font_navcolor, #87ceff);
+    color: transparent;
+    background-clip: text;
+    a {
+    
+    }
 }
 .nav_link:hover{
     opacity: .50;

@@ -19,11 +19,11 @@ const AboutPage = () => (
           and fitness. She also does her own stunts. 
           For resume check out her: <a href="https://www.imdb.com/name/nm9216180/?ref_=fn_al_nm_1" target="_blank">IMDB</a>
         </p> <br/>
-        <h2>To contact me:</h2>
+        {/* <h2>To contact me:</h2>
           <ul>
             <li><a href="mailto:reganlussier@gmail.com">reganlussier@gmail.com</a></li>
             <li><a href="tel:2693706368">269-370-6368</a></li>
-          </ul>
+          </ul> */}
     </div>
      <img src={AnimatedMe} />
     </div>
