@@ -1,6 +1,7 @@
 <?php
 
-$message_sent = false;
+
+// $message_sent = false;
     if(isset($_POST['email']) && $_POST['email'] != '') {
 
         if(filter_car($_POST['email'], 
@@ -20,10 +21,11 @@ $message_sent = false;
         mail($to, $email, $message);
 
         $message_sent = true;
+        echo 'Thanks';
     }
 
-    if($message_sent):
-        echo 'Thanks';
+    // if($message_sent):
+    //     echo 'Thanks';
 }
 }
 ?>

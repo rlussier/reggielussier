@@ -7,24 +7,22 @@
 
 #form {
     display: block;
-    margin: auto;
     width: 100%;
-    padding: 10px;
+    padding: 1px;
     button {
         text-align: center;
-        padding: 6px 18px;
-        margin: 12px;
+        padding: 6px 30px;
+        margin: 6px 12px;
         font-size: 1.5rem;
         border-radius: 2px;
         background-color: $font_navcolor;
         color: $text_color;
-        // font-weight: 800;
         cursor: pointer;
         border: none;
         justify-self: center;
-        button:hover {
-            opacity: 50%;
-        }
+    }
+    button:hover {
+        opacity: .75;
     }
 }
 
@@ -35,15 +33,9 @@ input, textarea {
     // border: 2px solid black;
     // border: 2px solid $border_color;
     border-radius: 6px;
-    font-size: 1rem;
+    font-size: 1.2rem;
     width: 100%;
     background-color: #FFFAFA;
     color: $text_color;
     font-family: $Spartan_font;
 }
-
-// label {
-//     font-size: 1.5rem;
-//     line-height: 1.5;
-//     font-family: $Spartan_font;
-// }
