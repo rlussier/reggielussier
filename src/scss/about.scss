@@ -1,0 +1,35 @@
+.about_container {
+    display: flex;
+    padding: 0 3rem;
+    width: 20%;
+    .paragraph {
+        p {
+            width: 500px;
+            font-size: 1.2rem;
+            font-family: $Spartan_font;
+            a {
+                text-decoration: none;
+                color: $font_navcolor;
+                font-size: $font_text-size;
+            }
+            img {
+                width: 25%;
+            }
+        }
+    }
+ 
+    h2 {
+        text-align: center;
+        font-family: $Spartan_font;
+    }
+    li {
+        list-style-type: none;
+        text-align: center;
+        a {
+        font-family: $Spartan_font;
+        font-size: $font_text-size;
+        text-decoration: none;
+        color: $font_navcolor;
+        }
+    }
+}

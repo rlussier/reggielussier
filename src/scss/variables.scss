@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+//Background
+$background: url('../../src/images/FullBodyShotGimp.png');
+
+//Background Color
+$background_color: #36096d linear-gradient(315deg, #33FFBD 0%, #37d5d6 74%);
+// $background_color: #708090;
+$border_color: #282828;
+$bordershadow_color: #202020;
+
+//Font Colors
+$font_navcolor: #33FFBD;
+$font_hovercolor: #00FF7F;
+
+//Text Colors
+$text_color: #080808;
+$textshadow_color: #191970;
+
+//Fonts
+$Spartan_font: 'Spartan', sans-serif;
+$Audiowide_font: 'Audiowide', cursive;
+
+//Font Sizes 
+$font_text-size: 1.2rem;
+$font_head-size: 3rem;
+
+//Responsive 
+$background_responsivecolor: #E5E4E2;
+$Navbar_color: #0A0A0A;

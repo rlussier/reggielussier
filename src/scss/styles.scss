@@ -1,0 +1,40 @@
+@import 'variables.scss';
+@import 'navbar.scss';
+@import 'demos.scss';
+@import 'about.scss';
+@import 'socialmedia.scss';
+@import 'responsive.scss';
+@import 'contact.scss';
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: $background;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.main_container {
+    z-index: 1000;
+    position: relative;
+    color: $text_color;
+h1 {
+    text-align: center;
+    font-size: $font_head-size;
+    font-family: $Spartan_font;
+}
+h2 {
+    font-family: $Spartan_font;
+    }
+}
+
+.main_paragraph {
+    font-family: $Spartan_font;
+    font-size: 72px;
+    padding: auto;
+    text-align: center;
+}

@@ -1,0 +1,41 @@
+.demo_container {
+    align-items: center;
+    text-align: center;
+    padding: 0 3rem;
+    .demo_container-block {
+      margin: auto;
+    }
+}
+h2 {
+    text-align: center;
+    font-family: $Spartan_font;
+}
+.home_studio {
+  display: inline-flex;
+  justify-content: center;
+  li {
+    list-style-type: none;
+    text-align: left;
+    padding: 0 1rem;
+    font-size: 1.25rem;
+    font-family: $Spartan_font;
+    line-height: 2;
+}
+.home_studio-container {
+  display: inline-flex;
+  align-items: center;
+}
+img {
+    border: $border_color 1px solid;
+    width: 30%;
+    height: 25%;
+  }
+}
+iframe {
+    margin: 1rem;
+    align-items: center;
+    justify-content: center;
+    display: inline-block;
+    border: $border_color 1px solid;
+    height: 75px;
+  }

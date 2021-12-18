@@ -1,0 +1,68 @@
+.navbar {
+    display: flex;
+    align-items: baseline;
+    background-color: transparent;
+    justify-content: space-between;
+    padding: 0 1rem;
+    align-content: center;
+    margin: 0 auto;
+    .title {
+        color: $font_navcolor;
+        text-shadow: .15rem 0 $textshadow_color;
+        font-size: 3.2rem;
+        text-decoration: none;
+        font-family: $Audiowide_font;
+        font-weight: 400;
+    }
+    .title:hover{
+        opacity: .50;
+        color: $font_hovercolor;
+    }
+}
+.nav {
+    display: flex;
+   .nav_link, li, a {
+        font-family: $Audiowide_font;
+        color: $font_navcolor;
+        text-shadow: .24rem .10rem $textshadow_color;
+        padding: 1rem;
+        text-decoration: none;
+        font-size: 1.5rem;
+    }
+    a:hover{
+        opacity: .50;
+        color: $font_hovercolor;
+    }
+}
+
+.title {
+    color: $font_navcolor;
+    text-shadow: .15rem 0 $textshadow_color;
+    font-size: 3.2rem;
+    text-decoration: none;
+    font-family: $Audiowide_font;
+    font-weight: 400;
+}
+.title:hover{
+    opacity: .50;
+    color: $font_hovercolor;
+}
+
+.nav_link {
+    font-family: $Audiowide_font;
+    color: $font_navcolor;
+    text-shadow: .24rem .10rem $textshadow_color;
+    padding: 1rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+.nav_link:hover{
+    opacity: .50;
+    color: $font_hovercolor;
+}
+
+.nav_link::after {
+    display: block;
+    visibility: visible;
+    content: '';
+}
