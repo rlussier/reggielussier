@@ -23,7 +23,7 @@ const AboutPage = () => (
   <button type="reset" value="Clear">Reset</button>
 </form> */}
 
-<form id="form" method="post" action="../handleForm.js">
+<form id="form" method="post" action="reggielussier.vercel.app/contact">
   <label>
     <input type="text" name="name" id="name" placeholder="Name" />
   </label>
@@ -38,7 +38,6 @@ const AboutPage = () => (
     <textarea name="message" id="message" rows="5" placeholder="Message" />
   </label>
   <button type="submit">Send</button>
-  {/* <input type="reset" value="Clear" /> */}
 </form>
 
 </div>

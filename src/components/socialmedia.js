@@ -27,6 +27,7 @@ className="twitter social">
   <FontAwesomeIcon icon={faTwitch}/>
 </a>
     </div>
+    
     </div>
   )
 }
