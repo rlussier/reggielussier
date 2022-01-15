@@ -32,9 +32,18 @@ h2 {
     }
 }
 
-.main_paragraph {
-    font-family: $Spartan_font;
-    font-size: 72px;
-    padding: auto;
-    text-align: center;
+
+
+.sub_container {
+    a {
+     float: right;
+     }
+    .main_paragraph {
+        font-family: $Spartan_font;
+        font-size: 72px;
+        padding: auto;
+        text-align: center;
+   
+    }
+    
 }
